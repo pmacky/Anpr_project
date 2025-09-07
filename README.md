@@ -1,10 +1,13 @@
-# 🚗 License Plate Detection (YOLO)
+# 🚗 Automatic Number Plate Recognition (ANPR)
 
-A simple script to **detect license plates** using a YOLO model trained on plate images.  
-The output is the same image with bounding boxes drawn around detected plates.
+This project detects **vehicle license plates** from images using a custom-trained **YOLOv8 model**.  
+It only performs **plate detection** (no OCR).  
 
 ---
 
 ## 📦 Installation
-```bash
-pip install ultralytics opencv-python
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pmacky/Anpr_project.git
+   cd Anpr_project
